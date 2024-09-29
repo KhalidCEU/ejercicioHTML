@@ -60,7 +60,6 @@
 .searchContainer {
     display: flex;
     position: relative;
-    margin-top: 0;
     top: 36vh;
     left: 50%;
     transform: translateX(-50%);
@@ -123,12 +122,12 @@
 /* Botones  */
 
 .buttonsContainer {
-    position: absolute;
     display: flex;
-    margin-top: 15px;
+    position: absolute;
+    margin-top: 0;
     gap: 15px;
     left: 50%;
-    top: 50%;
+    top: 55vh;
     transform: translateX(-50%);
 }
 
@@ -167,7 +166,7 @@
     font-size: small;
     color: #474747;
     left: 50%;
-    top: 57%;
+    top: 62vh;
     transform: translateX(-50%);
     line-height: 28px;
 }

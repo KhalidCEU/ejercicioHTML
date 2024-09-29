@@ -28,25 +28,22 @@
             </div>
         </header>
 
-        <div class="mainContainer">
-            <img src="assets/logo.png" class="logo" alt="logo">
+        <img src="assets/logo.png" class="logo" alt="logo">
 
+        <div class="searchContainer">
+            <form action="https://www.google.es/search" method="GET" class="searchForm" id="searchForm">
+                <input class="searchBar" type="text" name="q">
+                <img src="assets/search.svg" class="searchIcon" alt="Boton de busqueda">
+                <img src="assets/voice-icon.svg" class="voiceIcon" alt="Busqueda por voz">
+                <img src="assets/image-icon.svg" class="imageIcon" alt="Busqueda por imagen">
+            </form>
+        </div>
 
-            <div class="searchContainer">
-                <form action="https://www.google.es/search" method="GET" class="searchForm" id="searchForm">
-                    <input class="searchBar" type="text" name="q">
-                    <img src="assets/search.svg" class="searchIcon" alt="Boton de busqueda">
-                    <img src="assets/voice-icon.svg" class="voiceIcon" alt="Busqueda por voz">
-                    <img src="assets/image-icon.svg" class="imageIcon" alt="Busqueda por imagen">
-                </form>
-            </div>
-
-            <div class="buttonsContainer">
-                <button type="submit" form="searchForm" class="searchButton">Buscar con Google</button>
-                <button class="luckyButton">
-                    <a href="https://doodles.google/" class="luckyButtonLink">Voy a tener suerte</a
-                ></button>
-            </div>
+        <div class="buttonsContainer">
+            <button type="submit" form="searchForm" class="searchButton">Buscar con Google</button>
+            <button class="luckyButton">
+                <a href="https://doodles.google/" class="luckyButtonLink">Voy a tener suerte</a
+            ></button>
         </div>
 
         <footer>
