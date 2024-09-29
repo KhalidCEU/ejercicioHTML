@@ -1,0 +1,180 @@
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    color: white;
+}
+
+.navbarLink {
+    color: #1f1f1f;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.leftNavLinks,
+.rightNavLinks {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.appsIcon {
+    margin-right: 10px;
+}
+
+.signInLink {
+    color: white;
+    text-decoration: none;
+}
+
+.signInButton {
+    padding: 13px 15px;
+    background-color: #0b57d0;
+    border: none;
+    border-radius: 20px;
+}
+
+.navbarLink:hover {
+    text-decoration: underline;
+}
+/* FIN Navbar */
+
+
+/* Logo */
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    transform: translateX(-50%);
+}
+/* FIN logo */
+
+
+/* Busqueda  */
+
+.searchContainer {
+    display: flex;
+    position: relative;
+    margin-top: 0;
+    top: 36vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    max-width: 584px;
+}
+
+.searchForm {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.searchBar {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.searchBar:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.searchIcon {
+    position: absolute;
+    margin-left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.voiceIcon {
+    position: absolute;
+    left: 86%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    color: gray;
+}
+
+.imageIcon {
+    position: absolute;
+    left: 93%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    color: gray;
+}
+/* FIN Busqueda */
+
+
+/* Botones  */
+
+.buttonsContainer {
+    position: absolute;
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.searchButton,
+.luckyButton{
+    width: 153px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px  #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #3c4043;
+    cursor: pointer;
+}
+
+.searchButton:hover,
+.luckyButton:hover {
+    border: 1px solid #c0c4c7;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.luckyButtonLink {
+    text-decoration: none;
+    color: #3c4043;
+}
+/* FIN Botones */
+
+
+/* Enlaces idiomas */
+
+.langsText {
+    position: absolute;
+    display: flex;
+    font-size: small;
+    color: #474747;
+    left: 50%;
+    top: 57%;
+    transform: translateX(-50%);
+    line-height: 28px;
+}
+
+.langLink {
+    text-decoration: none;
+    margin-right: 5px;
+    color: #1a0dab;
+}
+/* FIN Enlaces idiomas */

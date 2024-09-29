@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+        <title>Google</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="leftNavLinks">
+                    <a href="https://about.google/intl/ALL_es/" class="navbarLink">Sobre Google</a>
+                    <a href="https://store.google.com/es/?hl=es" class="navbarLink">Tienda</a>
+                </div>
+                <div class="rightNavLinks">
+                    <a href="https://intranet.ceu.es/" class="navbarLink">IntraCEU ⭐️</a>
+                    <a href="https://www.google.com/imghp?hl=es&ogbl" class="navbarLink">Imágenes</a>
+                    <a href="https://www.google.es/intl/es/about/products">
+                        <img src="assets/apps-icon.png" height="24" width="24" class="appsIcon" alt="Aplicaciones">
+                    </a>
+                    <button class="signInButton">
+                        <a href="https://accounts.google.com/" class="signInLink">Iniciar sesión</a>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="mainContainer">
+            <img src="assets/logo.png" class="logo" alt="logo">
+
+
+            <div class="searchContainer">
+                <form action="https://www.google.es/search" method="GET" class="searchForm" id="searchForm">
+                    <input class="searchBar" type="text" name="q">
+                    <img src="assets/search.svg" class="searchIcon" alt="Boton de busqueda">
+                    <img src="assets/voice-icon.svg" class="voiceIcon" alt="Busqueda por voz">
+                    <img src="assets/image-icon.svg" class="imageIcon" alt="Busqueda por imagen">
+                </form>
+            </div>
+
+            <div class="buttonsContainer">
+                <button type="submit" form="searchForm" class="searchButton">Buscar con Google</button>
+                <button class="luckyButton">
+                    <a href="https://doodles.google/" class="luckyButtonLink">Voy a tener suerte</a
+                ></button>
+            </div>
+        </div>
+
+        <footer>
+            <div class="langsText">
+                <p>Google disponible en :
+                    <a class="langLink" href="https://www.google.es/setprefs?sig=0_IlFl8QsO2-frxKbz9LY4nVkihwU%3D&hl=es&source=homepage&sa=X&ved=0ahUKEwizwr3Y_-iIAxX0VvEDHZ9RMGsQ2ZgBCBU">Español</a>
+                    <a class="langLink" href="https://www.google.com/setprefs?sig=0_ctu2kQImKV86jVle5vU4gqLnJUM%3D&hl=ca&source=homepage&sa=X&ved=0ahUKEwjOjojA7uiIAxVtAvsDHY7zLmkQ2ZgBCBc">català</a>
+                    <a class="langLink" href="https://www.google.com/setprefs?sig=0_ctu2kQImKV86jVle5vU4gqLnJUM%3D&hl=gl&source=homepage&sa=X&ved=0ahUKEwjOjojA7uiIAxVtAvsDHY7zLmkQ2ZgBCBg">galego</a>
+                    <a class="langLink" href="https://www.google.com/setprefs?sig=0_ctu2kQImKV86jVle5vU4gqLnJUM%3D&hl=eu&source=homepage&sa=X&ved=0ahUKEwjOjojA7uiIAxVtAvsDHY7zLmkQ2ZgBCBk">euskara </a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
