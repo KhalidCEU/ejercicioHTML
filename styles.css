@@ -22,10 +22,6 @@
     align-items: center;
 }
 
-.appsIcon {
-    margin-right: 10px;
-}
-
 .signInLink {
     color: white;
     text-decoration: none;
@@ -42,6 +38,61 @@
     text-decoration: underline;
 }
 /* FIN Navbar */
+
+
+/* MenuApps */
+
+.appsMenuContainer {
+    display: none;
+}
+
+.appsMenuContainer.show {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #f8fafd;
+    flex-wrap: wrap;
+    width: 28%;
+    padding: 24px 20px;
+    right: 3vh;
+
+    border-radius: 24px 24px 4px 4px;
+}
+
+.itemLink {
+    text-decoration: none;
+    color: black;
+}
+
+.appsMenuItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.appsMenuItem:hover {
+    background-color: #e9eef6;
+    border-radius: 16px;
+}
+
+.menuButton {
+    margin-right: 10px;
+    border: none;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.menuButton:hover {
+    border-radius: 10px;
+    background-color: rgb(214, 211, 211);
+}
+/* FIN MenuApps */
 
 
 /* Logo */

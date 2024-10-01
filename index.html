@@ -18,9 +18,9 @@
                 <div class="rightNavLinks">
                     <a href="https://intranet.ceu.es/" class="navbarLink">IntraCEU ⭐️</a>
                     <a href="https://www.google.com/imghp?hl=es&ogbl" class="navbarLink">Imágenes</a>
-                    <a href="https://www.google.es/intl/es/about/products">
-                        <img src="assets/apps-icon.png" height="24" width="24" class="appsIcon" alt="Aplicaciones">
-                    </a>
+                    <button class="menuButton" onclick="toggleAppsMenu()">
+                        <img src="assets/apps-icon.png" class="appsIcon" alt="Aplicaciones">
+                    </button>
                     <button class="signInButton">
                         <a href="https://accounts.google.com/" class="signInLink">Iniciar sesión</a>
                     </button>
@@ -30,6 +30,62 @@
 
         <img src="assets/logo.png" class="logo" alt="logo">
 
+        <div class="appsMenuContainer">
+                <a href="https://myaccount.google.com/" class="itemLink">
+                    <div class="appsMenuItem">
+                        <img src="/assets/menuApps/account.png" alt="Cuenta" width="30px">
+                        <p>Cuenta</p>
+                    </div>
+                </a>
+                <a href="https://www.google.com/" class="itemLink">
+                    <div class="appsMenuItem">
+                        <img src="/assets/menuApps/google.png" alt="Busqueda" width="30px">
+                        <p>Búsqueda</p>
+                    </div>
+                </a>
+                <a href="https://maps.google.com/" class="itemLink">
+                    <div class="appsMenuItem">
+                        <img src="/assets/menuApps/maps.png" alt="Maps" width="30px">
+                        <p>Mapas</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/" class="itemLink">
+                    <div class="appsMenuItem">
+                        <img src="/assets/menuApps/youtube.png" alt="Youtube" width="30px">
+                        <p>Youtube</p>
+                    </div>
+                </a>
+                <a href="https://news.google.com/" class="itemLink">
+                    <div class="appsMenuItem">
+                        <img src="/assets/menuApps/news.png" alt="Noticias" width="30px">
+                        <p>Noticias</p>
+                    </div>
+                </a>
+                <a href="https://mail.google.com/mail" class="itemLink">
+                    <div class="appsMenuItem">
+                        <img src="/assets/menuApps/gmail.png" alt="Gmail" width="30px">
+                        <p>Gmail</p>
+                    </div>
+                </a>
+                <a href="https://meet.google.com/" class="itemLink">
+                    <div class="appsMenuItem">
+                        <img src="/assets/menuApps/meets.png" alt="Meet" width="30px">
+                        <p>Meet</p>
+                    </div>
+                </a>
+                <a href="https://chat.google.com/" class="itemLink">
+                    <div class="appsMenuItem">
+                        <img src="/assets/menuApps/chat.png" alt="Chat" width="30px">
+                        <p>Chat</p>
+                    </div>
+                </a>
+                <a href="https://contacts.google.com/" class="itemLink">
+                    <div class="appsMenuItem">
+                        <img src="/assets/menuApps/contacts.png" alt="Contactos" width="30px">
+                        <p>Contactos</p>
+                    </div>
+                </a>
+        </div>
         <div class="searchContainer">
             <form action="https://www.google.es/search" method="GET" class="searchForm" id="searchForm">
                 <input class="searchBar" type="text" name="q">
@@ -56,5 +112,13 @@
                 </p>
             </div>
         </footer>
+
+        <script>
+            function toggleAppsMenu() {
+                var appsMenuContainer = document.querySelector('.appsMenuContainer');
+                appsMenuContainer.classList.toggle('show');
+            }
+        </script>
+
     </body>
 </html>
