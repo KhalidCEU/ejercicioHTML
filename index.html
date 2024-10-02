@@ -28,8 +28,6 @@
             </div>
         </header>
 
-        <img src="assets/logo.png" class="logo" alt="logo">
-
         <div class="appsMenuContainer">
                 <a href="https://myaccount.google.com/" class="itemLink">
                     <div class="appsMenuItem">
@@ -86,23 +84,26 @@
                     </div>
                 </a>
         </div>
-        <div class="searchContainer">
-            <form action="https://www.google.es/search" method="GET" class="searchForm" id="searchForm">
-                <input class="searchBar" type="text" name="q">
-                <img src="assets/search.svg" class="searchIcon" alt="Boton de busqueda">
-                <img src="assets/voice-icon.svg" class="voiceIcon" alt="Busqueda por voz">
-                <img src="assets/image-icon.svg" class="imageIcon" alt="Busqueda por imagen">
-            </form>
-        </div>
 
-        <div class="buttonsContainer">
-            <button type="submit" form="searchForm" class="searchButton">Buscar con Google</button>
-            <button class="luckyButton">
-                <a href="https://doodles.google/" class="luckyButtonLink">Voy a tener suerte</a
-            ></button>
-        </div>
+        <div class="mainContainer">
+            <img src="assets/logo.png" class="logo" alt="logo">
 
-        <footer>
+                <form action="https://www.google.es/search" method="GET" class="searchForm" id="searchForm">
+                    <div class="searchContainer">
+                        <img src="assets/search.svg" class="searchIcon" alt="Boton de busqueda">
+                        <input class="searchBar" type="text" name="q">
+                        <img src="assets/voice-icon.svg" class="voiceIcon" alt="Busqueda por voz">
+                        <img src="assets/image-icon.svg" class="imageIcon" alt="Busqueda por imagen">
+                    </div>
+                </form>
+
+            <div class="buttonsContainer">
+                <button type="submit" form="searchForm" class="searchButton">Buscar con Google</button>
+                <button class="luckyButton">
+                    <a href="https://doodles.google/" class="luckyButtonLink">Voy a tener suerte</a>
+                </button>
+            </div>
+
             <div class="langsText">
                 <p>Google disponible en :
                     <a class="langLink" href="https://www.google.es/setprefs?sig=0_IlFl8QsO2-frxKbz9LY4nVkihwU%3D&hl=es&source=homepage&sa=X&ved=0ahUKEwizwr3Y_-iIAxX0VvEDHZ9RMGsQ2ZgBCBU">Español</a>
@@ -111,7 +112,7 @@
                     <a class="langLink" href="https://www.google.com/setprefs?sig=0_ctu2kQImKV86jVle5vU4gqLnJUM%3D&hl=eu&source=homepage&sa=X&ved=0ahUKEwjOjojA7uiIAxVtAvsDHY7zLmkQ2ZgBCBk">euskara </a>
                 </p>
             </div>
-        </footer>
+        </div>
 
         <script>
             function toggleAppsMenu() {
