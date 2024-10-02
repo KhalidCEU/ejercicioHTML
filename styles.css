@@ -20,6 +20,8 @@
     display: flex;
     margin-top: 10px;
     align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
 }
 
 .signInLink {
@@ -140,6 +142,8 @@
     border: none;
     box-sizing: border-box;
     outline: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
 }
 
 .searchContainer:hover {
@@ -206,6 +210,7 @@
 .langsText {
     display: flex;
     margin-top: 30px;
+    font-family: Arial, sans-serif;
     font-size: small;
     color: #474747;
     line-height: 28px;
